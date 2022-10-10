@@ -1,0 +1,238 @@
+<!--
+    Henry Holben
+    WEB DEV CPSC332
+    HW3
+    10/9/2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="icon" type="BrookFace" href="/docs/BrookFace.png">
+
+    <style>
+        #container {
+            display:flex;
+        }
+        
+        #navi{
+            background-color: bisque;
+        }
+
+        #div1 {
+            background-color: rgb(157, 145, 236);
+            flex: 0 1 30%;
+        }
+
+        #content{
+            background-color: gainsboro;
+            flex: 0 1 70%
+        }
+
+        #career{
+           color: rgb(65, 65, 65);
+           font-size: 30px;
+        }
+
+        #qual{
+           color: rgb(74, 220, 74);
+           font-size: 30px;
+        }
+
+        #hobbies{
+           color: rgb(250, 139, 157);
+           font-size: 30px;
+        }
+
+        #logoPhoto {
+           height: 50px;
+           width: auto;
+
+        }
+
+        #introPhoto{
+            height: 200px;
+            width: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+        }
+
+        #ul-a {
+            list-style-type: square;
+        }
+
+        #bold-text {
+            font-weight: bold;
+        }
+
+        #p-0 {
+            text-align: center;
+        }
+
+        #p-1 {
+            color: rgb(178, 0, 92);
+        }
+
+        #p-2{
+            color:aliceblue
+        }
+
+        tr:nth-child(odd) {
+            background-color: aliceblue;
+        }
+
+        #ol-2{
+            list-style-type: lower-roman;
+        }
+
+        #IH-image {
+            height: 200px;
+            width: auto;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="navi">
+
+        
+        <img id="logoPhoto" src="BrookFace.png" alt="BrookFace">
+
+        <a id="career" href="/Career Summary/index.html" target="_blank">Career summary</a>
+    
+        <a id="qual" href="/Education and Qualifications/index.html" target="_blank">Education and Qualifications</a>
+    
+        <a id="hobbies" href="/Interests and Hobbies/index.html" target="_blank">Interests and Hobbies</a>
+   
+    </div>
+
+
+    <div id="container">
+
+    <div id="div1">
+        <img id="introPhoto" src="BrookWantedPoster.png" alt="BrookWantedPoster">
+
+    <p id="p-0">
+        Brook - Soul King
+    </p>
+    <p id="p-1">
+        This is brooks website!! Here I will list his career, education and qualificaitons,
+        interests and hobbies and also throw in some tables and lists to make it crazy! Check out
+        the links!
+    </p>
+    <p id="p-2">
+        Here are some core skills!
+    </p>
+    <p id="bold-text">
+        <ul id="ul-a">
+            <li>
+                Musician
+            </li>
+            <li>
+                Swordsman
+            </li>
+            <li>
+                Pirate
+            </li>
+            <li>
+                Bone jokes
+            </li>
+        </ul>
+    </p>
+    </div>
+
+    <div id="content">
+    <h1 style="text-align:center;">Career Summary</h1>
+
+    <table border="1">
+        <tr>
+            <th>Occupation</th>
+            <th>Date</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Straw Hat Pirate</td>
+            <td>Current</td>
+            <td>A crew member - musician</td>
+        </tr>
+        <tr>
+            <td>Rumbar Pirate</td>
+            <td>A long time ago</td>
+            <td>Was a crew member</td>
+        </tr>
+        
+    </table>
+
+    <h1 style="text-align:center;">Education and Qualifications</h1>
+
+    <h4 style="text-align:center;">Education</h4>
+    <table border="1">
+        <tr>
+            <th>Education</th>
+            <th>Date</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Hisotry</td>
+            <td>Current</td>
+            <td>Learning about the world through travel</td>
+        </tr>
+        <tr>
+            <td>Music</td>
+            <td>A long long time ago</td>
+            <td>Learned how to play the guitar and other instruments</td>
+        </tr>
+        
+    </table>
+
+    
+    <h4 style="text-align:center;">Qualifications</h4>
+    <table border="1">
+        <tr>
+            <th>Qualification</th>
+            <th>Date</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Musician</td>
+            <td>Current</td>
+            <td>PLaying music for the Straw Hat Pirates, Binks Brew</td>
+        </tr>
+        <tr>
+            <td>Swordsman</td>
+            <td>Current</td>
+            <td>Although not the crew's top swordsman, still a formidable opponent</td>
+        </tr>
+        <tr>
+            <td>Soul King</td>
+            <td>Current</td>
+            <td>Is able to touch peoples souls through his music, can be used in battle</td>
+        </tr>
+        
+    </table>
+
+    <h1>Interests and Hobbies</h1>
+    
+    <ol id="ol-2">
+        <li>Music!</li>
+        <li>Being a pirate!</li>
+        <li>Singing!</li>
+        <li>SOUL KING</li>
+        <a href="https://wallpapercave.com/w/wp9090816">
+            <img id="IH-image" alt="Qries" src="2SoulKing.png"
+            width="90" height="150">
+         </a>
+    </ol>
+    </div>
+
+    </div>
+
+</body>
+</html>
